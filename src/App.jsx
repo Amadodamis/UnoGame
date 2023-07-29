@@ -1,12 +1,13 @@
-import masCuatro from "./img/mascuatro.png"
+
+import "./app.css"
+
 
 function App() {
-  
+
   return (
-    <>
-     <p>HOLA</p>
-     <img src={masCuatro} alt={''} className={''}/>
-    </>
+    <div className="app">
+      <button className="button-play"> JUGAR </button>
+    </div>
   )
 }
 
