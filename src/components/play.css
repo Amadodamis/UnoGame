@@ -8,52 +8,28 @@
     height: 100vh;
 }
 
-
 .button-play {
     cursor: pointer;
-
+    margin: 15px;
     position: absolute;
-    top: 85%;
+    top:85%;
     right: 45%;
-
-    width: 300px;
-    height: 100px;
-
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 0.8em 1.8em;
-    overflow: hidden;
-    background-color: black;
-
-    transition: .3s;
-    z-index: 1;
-
-
-    color: #17C3B2;
+    background: #FBCA1F;
     font-family: inherit;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-.button-play::before {
-    content: '';
-    width: 0;
-    height: 300%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    background: #17C3B2;
-    transition: .5s ease;
-    display: block;
-    z-index: -1;
-}
-
-.button-play:hover::before {
-    width: 100%;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 1.7em;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
 }
 
 .button-play:hover {
-    color: #111;
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.button-play:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
 }
