@@ -1,0 +1,58 @@
+.table {
+    width: 90vw;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.deck-computer {
+    height: 15vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.img-size-deck-computer {
+    height: 130px;
+
+}
+
+.mazo-cartas-pozo {
+
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-table {
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-table {
+    cursor: pointer;
+    margin: 15px;
+
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+}
+
+.button-table:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.button-table:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}

@@ -1,12 +1,12 @@
-
 import "./app.css"
-
+import PlayMenu from "./components/PlayMenu"
+import Game from "./components/game/game"
 
 function App() {
 
   return (
     <div className="app">
-      <button className="button-play"> JUGAR </button>
+      <Game/>
     </div>
   )
 }
