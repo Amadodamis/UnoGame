@@ -4,4 +4,6 @@
     border-radius: 15px;
     padding: 10px;
     display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
 }

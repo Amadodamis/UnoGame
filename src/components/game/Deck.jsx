@@ -1,21 +1,23 @@
 import "./deck.css"
-import mascuatro from "../../img/Cartas/mascuatro.png"
-import unoAmarillo from "../../img/Cartas/Amarillas/1.png"
-import dosAzul from "../../img/Cartas/Azules/2.png"
-import tresVerde from "../../img/Cartas/verdes/3.png"
-import dosRojo from "../../img/Cartas/rojas/2.png"
-import cambiodelado from "../../img/Cartas/rojas/cambiodelado.png"
-import elecColor from "../../img/Cartas/eleccioncolor.png"
+import { mazo } from "../../JS/Cartas"
+
+
 function Deck() {
+
     return (
         <div className="deck">
-            <img src={mascuatro} alt='carta-deck' className={''} />
-            <img src={unoAmarillo} alt='carta-deck' className={''} />
-            <img src={dosAzul} alt='carta-deck' className={''} />
-            <img src={elecColor} alt='carta-deck' className={''} />
-            <img src={tresVerde} alt='carta-deck' className={''} />
-            <img src={dosRojo} alt='carta-deck' className={''} />
-            <img src={cambiodelado} alt='carta-deck' className={''} />
+            <img src={mazo[0].img} alt='carta-deck' className={''} />
+            <img src={mazo[1].img} alt='carta-deck' className={''} />
+            <img src={mazo[2].img} alt='carta-deck' className={''} />
+            <img src={mazo[3].img} alt='carta-deck' className={''} />
+            <img src={mazo[4].img} alt='carta-deck' className={''} />
+            <img src={mazo[5].img} alt='carta-deck' className={''} />
+            <img src={mazo[6].img} alt='carta-deck' className={''} />
+            <img src={mazo[7].img} alt='carta-deck' className={''} />
+            <img src={mazo[8].img} alt='carta-deck' className={''} />
+            <img src={mazo[9].img} alt='carta-deck' className={''} />
+            <img src={mazo[10].img} alt='carta-deck' className={''} />
+
         </div>
     )
 }

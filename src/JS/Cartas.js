@@ -1,6 +1,12 @@
+import { shuffleArray } from "./shuffleArray"
+
+
 import cartaInvertidaIMG from "../img/Cartas/cartaInvertida.png"
+import mazoImg from "../img/Cartas/mazo.png"
+
 import masCuatroIMG from "../img/Cartas/mascuatro.png"
 import eleccionColorIMG from "../img/Cartas/eleccioncolor.png"
+
 
 //Amarillas
 import unoAmarilloIMG from "../img/Cartas/Amarillas/1.png"
@@ -358,3 +364,9 @@ let mazo = [
     },
 
 ]
+
+shuffleArray(mazo)
+let cartaAleatoria=mazo[Math.floor(Math.random()*mazo.length)]
+
+
+export { mazo,cartaInvertidaIMG,mazoImg,cartaAleatoria }

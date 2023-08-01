@@ -10,8 +10,40 @@ body {
 
 :root {
   --primary-color: #282c34;
+  --secondary-color:rgba(251, 202, 31);
+  --secondary-color50:rgba(251 202 31 /50%);
 }
 
 a {
   text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+  height: 12px;
+  
+}
+/*
+::-webkit-scrollbar:window-inactive {
+  display: none;
+}
+*/
+
+::-webkit-scrollbar-track-piece {
+  border-radius: 2px;
+  background-color: var(--secondary-color50);
+  background-clip: content-box;
+  border-radius: 6px;
+  border: solid 4px transparent;
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar-button{
+  background: transparent ;
+}
+
+::-webkit-scrollbar-thumb  {
+  background-color: var(--secondary-color);
+  border-radius: 6px;
 }
