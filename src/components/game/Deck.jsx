@@ -1,8 +1,6 @@
 import "./deck.css"
-import { mazo } from "../../JS/Cartas"
 
-
-function Deck() {
+function Deck({mazo}) {
 
     return (
         <div className="deck">

@@ -90,21 +90,25 @@ let mazo = [
 
     // +4
     {
+        id: 1,
         color: "NEUTRO",
         valor: "+4",
         img: masCuatroIMG,
     },
     {
+        id: 2,
         color: "NEUTRO",
         valor: "+4",
         img: masCuatroIMG,
     },
     {
+        id: 3,
         color: "NEUTRO",
         valor: "+4",
         img: masCuatroIMG,
     },
     {
+        id: 4,
         color: "NEUTRO",
         valor: "+4",
         img: masCuatroIMG,
@@ -112,21 +116,25 @@ let mazo = [
 
     //ELECCION COLOR
     {
+        id: 5,
         color: "NEUTRO",
         valor: "ELECCION COLOR",
         img: eleccionColorIMG,
     },
     {
+        id: 6,
         color: "NEUTRO",
         valor: "ELECCION COLOR",
         img: eleccionColorIMG,
     },
     {
+        id: 7,
         color: "NEUTRO",
         valor: "ELECCION COLOR",
         img: eleccionColorIMG,
     },
     {
+        id: 8,
         color: "NEUTRO",
         valor: "ELECCION COLOR",
         img: eleccionColorIMG,
@@ -134,56 +142,67 @@ let mazo = [
 
     //AMARILLAS
     {
+        id: 9,
         color: "AMARILLO",
         valor: "1",
         img: unoAmarilloIMG,
     },
     {
+        id: 10,
         color: "AMARILLO",
         valor: "2",
         img: dosAmarilloIMG,
     },
     {
+        id: 11,
         color: "AMARILLO",
         valor: "3",
         img: tresAmarilloIMG,
     },
     {
+        id: 12,
         color: "AMARILLO",
         valor: "4",
         img: cuatroAmarilloIMG,
     },
     {
+        id: 13,
         color: "AMARILLO",
         valor: "5",
         img: cincoAmarilloIMG,
     },
     {
+        id: 14,
         color: "AMARILLO",
         valor: "6",
         img: seisAmarilloIMG,
     },
     {
+        id: 15,
         color: "AMARILLO",
         valor: "7",
         img: sieteAmarilloIMG,
     },
     {
+        id: 16,
         color: "AMARILLO",
         valor: "8",
         img: ochoAmarilloIMG,
     },
     {
+        id: 17,
         color: "AMARILLO",
         valor: "9",
         img: nueveAmarilloIMG,
     },
     {
+        id: 18,
         color: "AMARILLO",
         valor: "+2",
         img: mas2AmarilloIMG,
     },
     {
+        id: 19,
         color: "AMARILLO",
         valor: "SALTO DE TURNO AMARILLO",
         img: saltoDeTurnoAmarilloIMG,
@@ -192,56 +211,67 @@ let mazo = [
     //****************************AZULES****************************
 
     {
+        id: 20,
         color: "AZUL",
         valor: "1",
         img: unoAzulIMG,
     },
     {
+        id: 21,
         color: "AZUL",
         valor: "2",
         img: dosAzulIMG,
     },
     {
+        id: 22,
         color: "AZUL",
         valor: "3",
         img: tresAzulIMG,
     },
     {
+        id: 23,
         color: "AZUL",
         valor: "4",
         img: cuatroAzulIMG,
     },
     {
+        id: 24,
         color: "AZUL",
         valor: "5",
         img: cincoAzulIMG,
     },
     {
+        id: 25,
         color: "AZUL",
         valor: "6",
         img: seisAzulIMG,
     },
     {
+        id: 26,
         color: "AZUL",
         valor: "7",
         img: sieteAzulIMG,
     },
     {
+        id: 27,
         color: "AZUL",
         valor: "8",
         img: ochoAzulIMG,
     },
     {
+        id: 28,
         color: "AZUL",
         valor: "9",
         img: nueveAzulIMG,
     },
     {
+        id: 29,
         color: "AZUL",
         valor: "+2",
         img: mas2AzulIMG,
     },
     {
+        id: 30,
         color: "AZUL",
         valor: "SALTO DE TURNO AZUL",
         img: saltoDeTurnoAzulIMG,
@@ -250,56 +280,67 @@ let mazo = [
     //****************************VERDES****************************
 
     {
+        id: 31,
         color: "VERDE",
         valor: "1",
         img: unoVerdeIMG,
     },
     {
+        id: 32,
         color: "VERDE",
         valor: "2",
         img: dosVerdeIMG,
     },
     {
+        id: 33,
         color: "VERDE",
         valor: "3",
         img: tresVerdeIMG,
     },
     {
+        id: 34,
         color: "VERDE",
         valor: "4",
         img: cuatroVerdeIMG,
     },
     {
+        id: 35,
         color: "VERDE",
         valor: "5",
         img: cincoVerdeIMG,
     },
     {
+        id: 36,
         color: "VERDE",
         valor: "6",
         img: seisVerdeIMG,
     },
     {
+        id: 37,
         color: "VERDE",
         valor: "7",
         img: sieteVerdeIMG,
     },
     {
+        id: 38,
         color: "VERDE",
         valor: "8",
         img: ochoVerdeIMG,
     },
     {
+        id: 39,
         color: "VERDE",
         valor: "9",
         img: nueveVerdeIMG,
     },
     {
+        id: 40,
         color: "VERDE",
         valor: "+2",
         img: mas2VerdeIMG,
     },
     {
+        id: 41,
         color: "VERDE",
         valor: "SALTO DE TURNO VERDE",
         img: saltoDeTurnoVerdeIMG,
@@ -308,56 +349,67 @@ let mazo = [
     //******************ROJAS****************************
 
     {
+        id: 42,
         color: "ROJO",
         valor: "1",
         img: unoRojoIMG,
     },
     {
+        id: 43,
         color: "ROJO",
         valor: "2",
         img: dosRojoIMG,
     },
     {
+        id: 44,
         color: "ROJO",
         valor: "3",
         img: tresRojoIMG,
     },
     {
+        id: 45,
         color: "ROJO",
         valor: "4",
         img: cuatroRojoIMG,
     },
     {
+        id: 46,
         color: "ROJO",
         valor: "5",
         img: cincoRojoIMG,
     },
     {
+        id: 47,
         color: "ROJO",
         valor: "6",
         img: seisRojoIMG,
     },
     {
+        id: 48,
         color: "ROJO",
         valor: "7",
         img: sieteRojoIMG,
     },
     {
+        id: 49,
         color: "ROJO",
         valor: "8",
         img: ochoRojoIMG,
     },
     {
+        id: 50,
         color: "ROJO",
         valor: "9",
         img: nueveRojoIMG,
     },
     {
+        id: 51,
         color: "ROJO",
         valor: "+2",
         img: mas2RojoIMG,
     },
     {
+        id: 52,
         color: "ROJO",
         valor: "SALTO DE TURNO ROJO",
         img: saltoDeTurnoRojoIMG,
@@ -366,7 +418,7 @@ let mazo = [
 ]
 
 shuffleArray(mazo)
-let cartaAleatoria=mazo[Math.floor(Math.random()*mazo.length)]
+let cartaAleatoria = mazo[Math.floor(Math.random() * mazo.length)]
 
 
-export { mazo,cartaInvertidaIMG,mazoImg,cartaAleatoria }
+export { mazo, cartaInvertidaIMG, mazoImg, cartaAleatoria }
