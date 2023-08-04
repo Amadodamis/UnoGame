@@ -417,8 +417,5 @@ let mazo = [
 
 ]
 
-shuffleArray(mazo)
-let cartaAleatoria = mazo[Math.floor(Math.random() * mazo.length)]
 
-
-export { mazo, cartaInvertidaIMG, mazoImg, cartaAleatoria }
+export { mazo, cartaInvertidaIMG,mazoImg }
