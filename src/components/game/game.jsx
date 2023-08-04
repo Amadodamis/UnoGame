@@ -3,7 +3,7 @@ import "./game.css"
 
 import { useState } from "react"
 
-import Deck from "../deckPlayer/Deck"
+import DeckPlayer from "../deckPlayer/DeckPlayer"
 import Table from "../table/table"
 
 import {
@@ -42,7 +42,7 @@ function Game() {
             />
 
 
-            <Deck
+            <DeckPlayer
                 mazo={mazo}
 
                 mazoJugado={mazoJugado} setMazoJugado={setMazoJugado}

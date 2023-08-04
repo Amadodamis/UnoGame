@@ -1,6 +1,6 @@
-import "./deck.css"
+import "./deckPlayer.css"
 
-function Deck({ mazo, mazoJugado, setMazoJugado, mazoPlayer, setMazoPlayer }) {
+function DeckPlayer({ mazo, mazoJugado, setMazoJugado, mazoPlayer, setMazoPlayer }) {
 
     return (
         <div className="deck">
@@ -13,4 +13,4 @@ function Deck({ mazo, mazoJugado, setMazoJugado, mazoPlayer, setMazoPlayer }) {
     )
 }
 
-export default Deck
+export default DeckPlayer
