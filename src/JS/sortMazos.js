@@ -7,6 +7,7 @@ let nuevoMazo = shuffleArray(mazo)
 
 let mazoJugado = [nuevoMazo.pop()]
 
+mazoJugado=shuffleArray(mazoJugado)
 
 let mazoPlayer = [
     nuevoMazo.pop(),
@@ -18,6 +19,7 @@ let mazoPlayer = [
     nuevoMazo.pop()
 ]
 
+mazoJugado=shuffleArray(mazoJugado)
 
 let mazoBot = [
     nuevoMazo.pop(),

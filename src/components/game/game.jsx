@@ -1,19 +1,17 @@
 
 import "./game.css"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 import Deck from "./Deck"
 import Table from "./table"
 
 import { nuevoMazo as mazoInicial, mazoJugado as mazoJ, mazoPlayer as mazoP, mazoBot as mazoB } from "../../JS/sortMazos"
-//import primerCarta from "../../JS/primerCarta"
+
 
 
 function Game() {
 
-    //se guarda en un estado el inicio del juego.
-    const [inicioDelJuego, setInicioDelJuego] = useState(false)
 
     //Mazo del juego general.
     const [mazo, setMazo] = useState(mazoInicial)
@@ -26,23 +24,7 @@ function Game() {
     const [mazoPlayer, setMazoPlayer] = useState(mazoP)
 
 
-    /*
-        useEffect(() => {
-            //En el segundo renderizado cambia el estado a empezo el juego
-            setInicioDelJuego(true)
-        }, [])
-    
-    
-        useEffect(() => {
-    
-            if (inicioDelJuego !== false) {
-                console.log("Inicio el juego")
-    
-            }
-    
-        }, [inicioDelJuego])
-    
-    */
+
     return (
 
         <div className="game">

@@ -1,9 +1,15 @@
 .deck{
     width: 90vw;
+    
     border: 1px white solid;
     border-radius: 15px;
     padding: 10px;
     display: flex;
+    justify-content: center;
     overflow: hidden;
     overflow-x: scroll;
+}
+
+.cartas-deck-player{
+    cursor: pointer;
 }

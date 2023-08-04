@@ -1,9 +1,8 @@
 import "./table.css"
 
-import { useEffect } from "react"
-
 import ButtonsTable from "./buttonsTable"
-import { mazoImg, cartaInvertidaIMG } from "../../JS/Cartas"
+import DeckComputer from "./DeckComputer"
+import { mazoImg } from "../../JS/Cartas"
 
 function Table({ mazo, setMazo, mazoJugado, setMazoJugado, mazoBot, setMazoBot }) {
 
@@ -13,24 +12,15 @@ function Table({ mazo, setMazo, mazoJugado, setMazoJugado, mazoBot, setMazoBot }
 
         <div className="table">
 
-            {/*Tablero de la computadora.*/}
-            <div className='deck-computer'>
-
-                <img src={cartaInvertidaIMG} alt={''} className='img-size-deck-computer ' />
-                <img src={cartaInvertidaIMG} alt={''} className='img-size-deck-computer ' />
-                <img src={cartaInvertidaIMG} alt={''} className='img-size-deck-computer ' />
-                <img src={cartaInvertidaIMG} alt={''} className='img-size-deck-computer ' />
-                <img src={cartaInvertidaIMG} alt={''} className='img-size-deck-computer ' />
-                <img src={cartaInvertidaIMG} alt={''} className='img-size-deck-computer ' />
-
-            </div>
+            <DeckComputer
+                mazoBot={mazoBot} setMazoBot={setMazoBot}
+            />
 
             <div className='mazo-cartas-pozo'>
 
-                <img src={mazoImg} alt={''} className={""} />
+                <img src={mazoImg} alt='Imagen mazo de cartas' className="" />
 
-                {/*Carta aleatoria es la primer carta del juego, o la primer carta por donde sobre se comienza a jugar.*/}
-                <img src={mazoJugado[mazoJugado.length - 1].img} alt={''} className={''} />
+                <img src={mazoJugado[mazoJugado.length - 1].img} alt='IMG de la ultima carta que se esta jugando' className='' />
 
             </div>
 
