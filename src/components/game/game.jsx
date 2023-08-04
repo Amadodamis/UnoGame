@@ -3,10 +3,15 @@ import "./game.css"
 
 import { useState } from "react"
 
-import Deck from "./Deck"
-import Table from "./table"
+import Deck from "../deckPlayer/Deck"
+import Table from "../table/table"
 
-import { nuevoMazo as mazoInicial, mazoJugado as mazoJ, mazoPlayer as mazoP, mazoBot as mazoB } from "../../JS/sortMazos"
+import {
+    nuevoMazo as mazoInicial,
+    mazoJugado as mazoJ,
+    mazoPlayer as mazoP,
+    mazoBot as mazoB
+} from "../../JS/sortMazos"
 
 
 
@@ -52,13 +57,3 @@ function Game() {
 }
 
 export default Game
-
-/*
-
- 
-
-
-
-
-
-*/

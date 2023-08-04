@@ -1,5 +1,5 @@
 import "./app.css"
-import PlayMenu from "./components/PlayMenu"
+
 import Game from "./components/game/game"
 
 function App() {
